@@ -1,0 +1,71 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+  /* Typography */
+  --family-ss: 'Kumbh Sans', sans-serif;
+
+  /* Font size - heading */
+  --fs-h1: 44px;
+  --lh-h1: 48px;
+
+  --fs-h2: 28px;
+  --lh-h2: 34px;
+
+  --fs-h3: 15px;
+  --lh-h3: 26px;
+
+  --fs-h4: 13px;
+  --lh-h4: 16px;
+  --ls-h4: 2px;
+
+  --fs-h5: 10px;
+  --lh-h5: 12px;
+
+  /* Font size - heading-mobile */
+  --fs-h1-m: 28px;
+  --lh-h1-m: 32px;
+
+  --fs-h4-m: 12px;
+  --lh-h4-m: 15px;
+  --ls-h4-m: 2px;
+
+  /* Font size - body */
+  --fs-bm: 16px;
+  --lh-bm: 26px;
+
+  --fs-bs: 16px;
+  --lh-bs: 20px;
+
+  /* Font size - body-mobile */
+  --fs-bm-m: 15px;
+  --lh-bm-m: 25px;
+
+  /* Font size - menu */
+  --fs-menu: 18px;
+  --lh-menu: 26px;
+
+  /* Font weight */
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  /* Colors */
+  --dark: #1D2026;
+  --medium: #69707D;
+  --medim-l: #B6BCC8;
+  --light: #FFFFFF;
+  --accent: #FF7E1B;
+  --accent-hover: #FFAB6A;
+  --count-bg: #F6F8FD;
+  --line: #E4E9F2;
+  --lightboxBg: rgba(0, 0, 0, 0.75);
+  --none: transparent;
+}
+
+body {
+  font-family: var(--family-ss);
+  font-weight: var(--fw-regular);
+  color: var(--dark);
+
+  background: var(--light);
+}
